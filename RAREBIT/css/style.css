@@ -1,0 +1,249 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+  HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+
+body, div, main, section, article {
+  box-sizing: border-box; 
+}
+
+/* universal background color */
+body {
+  background-color: #655671; 
+}
+
+/* header image */
+header img {
+  width: 500px;
+  max-width: 98%;
+}
+
+.website-name {
+  font-family:"waterlily" ;
+  font-size: 70px;
+  text-decoration:none;
+  padding: 2% 0% 2% 0%;
+  width: 50%;
+  margin: 0% auto 0% auto;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+/* clearfix hack to prevent image overflow. check out the W3Schools page on it. */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*FONTS*/
+
+/* header font */
+#showComic, header, h1, h2, h3, h4, h5 {
+  font-family: 'playfair', cursive;
+  color: #aea6c2;
+}
+
+/* body font */
+.subPage p, footer, #authorNotes, .archiveTable {
+  font-family: 'playfair', cursive;
+  font-size: large;
+}
+
+/* STYLING FOR SUBPAGES (about, characters, etc) */
+
+/*general*/
+
+.subPage {
+  width: 1000px;
+  max-width: 98%;
+  background-color: #9a95af83;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 3%;
+}
+
+.subPage:not(.archivePage) {
+  text-align: center;
+}
+
+/* for pictures displayed to the left */
+.leftPic {
+  clear: left;
+  float:right;
+  margin-left:20px;
+}
+
+/* for pictures displayed to the left */
+.rightPic {
+  clear: right;
+  float:left;
+  margin-left:20px;
+}
+
+/* specific to Characters */
+.charTable, .charTable td { 
+  width: 100%;
+}
+
+/* link colors */
+a {
+      color: #c7aac4;
+      text-decoration: none;
+    }
+
+a:hover {
+      color: #d9d9d9;
+   
+    }
+
+
+.website-name:hover {
+  color: #caa0be;
+  background-color: #ffffff12;
+  box-shadow: 3px 3px #ffffff;
+  text-shadow: 3px 3px #ffffff;
+}
+
+/* HEADER */
+
+
+
+header #nav {
+  
+  
+  padding: 2%;
+  font-size: 30px;
+  font-weight: 100;
+  width: 98%;
+ 
+  text-align: center;
+  
+}
+
+/* HOMEPAGE */
+
+/* style nav button images */
+.comicNav {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+.comicNav img {
+  width: 80px;
+  max-width: 98%;
+  padding-right: 30px;
+}
+
+/* style comic page image */
+.comicPage img {
+  width: 80%;
+  max-width: 98%;
+}
+
+/* style author notes */
+#authorNotes {
+  background-color:#ffffff34;
+  border-radius: 10px;
+  margin: auto;
+  padding: 3%;
+ 
+  width: 900px;
+  max-width: 98%;
+}
+
+/* ARCHIVE PAGE */
+
+/* style table in which archive is displayed */
+.archiveTable {
+  width: 90%;
+  border-collapse:collapse;
+}
+
+/* style archive table cells */
+.archiveTable td {
+  padding: 3px;
+  vertical-align: center;
+  
+}
+
+/* style table cell in which page title is displayed */
+.archiveCellTitle:not(.leftAlignTableText) {
+  max-width: 300px;
+  text-align: center;
+}
+
+.archiveCellDate {
+  text-align: right;
+  min-width: 120px;
+}
+
+.archiveCellNum {
+  text-align: center;
+  min-width: 30px;
+}
+
+/* style the thumbnails on the archive page */
+.archiveCellThumb {
+    width: 500px;
+    max-width: 60px;
+}
+.archiveCellThumb img{
+    max-width: 100%;
+  }
+
+/* for left aligning the text in a table cell */
+.leftAlignTableText td {
+  text-align: left;
+}
+
+/* highlight a table row and make pointer into hand when moused over */
+.archiveRow:hover {
+  background-color: #ffffff38;
+  cursor: pointer;
+}
+
+/* HOMEPAGE */
+
+#authorBlurb {
+  text-align: left;
+  text-indent: 4em; /* or 15px, or 5%, 2rem or 3vw */
+}
+  
+
+
+/* FOOTER */
+footer {
+  color: #e9d1d1;
+  padding-top: 2%;
+  margin-top: 12px;
+  margin-bottom: 15px;
+  float: left;
+  width: 100vw;
+  font-size: 12px;
+  text-align: center;
+ 
+ 
+}
+
+footer p {
+  margin: auto;
+}
+
+footer a {
+  color: #c8d32b
+}
+
+footer a:hover {
+  color: #868d26
+}
+
+/* take away margins from the edges of the screen */
+html, body {
+  margin: 0;
+}
+
