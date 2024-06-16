@@ -46,7 +46,7 @@ color: rgb(253, 141, 115);
 }
 
 ul {
-list-style:square inside url(/images/ul-list.png);
+list-style:square inside url(images/ul-list.png);
 
 }
 
@@ -160,7 +160,7 @@ background-color: rgba(250, 235, 215, 0.377);
 
 
 #up a{
-background-image: url(/images/top.png);
+background-image: url(images/top.png);
 background-repeat: no-repeat;
 height: 28px;
 width: 28px;
@@ -169,7 +169,7 @@ display: inline-block;
 }
 
 #up a:hover {
-background-image: url(/images/top.gif);
+background-image: url(images/top.gif);
 background-repeat: no-repeat;
 }
 
@@ -190,7 +190,7 @@ box-shadow: 8px 8px #7183693c;
 }
 
 main {
-background-image: url(/images/bg2.png);
+background-image: url(images/bg2.png);
 background-repeat: repeat-y;
 background-position: left;
 
@@ -351,7 +351,7 @@ margin-right: 3%;
 
 #shit {
 height: 100vh;
-background-image: url(/images/bg1.png);
+background-image: url(images/bg1.png);
 background-repeat: no-repeat;
 background-position: bottom;
 background-size: cover;
