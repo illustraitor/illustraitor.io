@@ -1,0 +1,245 @@
+/*------fonts-------*/
+
+
+.silkscreen-regular {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.silkscreen-bold {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+.eb-garamond {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  
+}
+
+
+
+/*------overwrite-------*/
+
+
+
+
+body {
+    
+   
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+
+
+/*------link-effects-------*/
+
+a> .pointer {
+  display: none;
+}
+
+a:hover > .pointer{
+  display: inline;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+}
+
+a:link {
+  color: bisque;
+}
+
+a:visited {
+  color: burlywood;
+}
+
+/*------text-stuff-------*/
+
+p {
+  font-family: "EB Garamond";
+}
+
+
+.name {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  padding-top: 10%;
+  color: bisque;
+  text-shadow: 2px 2px #471c01;
+}
+
+.nav-text {
+  padding: 8%;
+  font-size: 18px;
+  color: #ffe4c4;
+  
+}
+
+.nav-text li {
+    list-style: none;
+    padding: 5%;
+}
+
+.links {
+  font-family: "Silkscreen", sans-serif;
+  text-align: right;
+  text-shadow: 2px 2px #471c01;
+}
+
+.main-title {
+ 
+ vertical-align: top;
+ text-align: center;
+ padding-top: 5%;
+ font-family: "Silkscreen", sans-serif;
+ color: #471c01;
+ font-size: large;
+ padding: 2%;
+
+}
+
+
+
+
+
+/*------body-divs-------*/
+
+
+
+.container1{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  
+
+}
+
+
+#nav{
+
+  flex-basis: 30%;
+  height: 100%;
+  /* align card  */
+  display: flex;
+  flex-wrap: wrap;
+   flex-direction: column; 
+  background: #646e64;
+  
+  min-width: 0;
+  white-space: initial;
+  align-items: center;
+  z-index: 2; 
+ 
+}
+
+
+.footer {
+    
+    max-width: 200px;
+    position: fixed;
+    padding-bottom: 2%;
+    bottom: 0%;
+    font-size: 11px;
+    font-family: "Silkscreen";
+    color: bisque;
+   
+}
+
+.main {
+ 
+  flex-basis: 70%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: bisque;
+  padding-top: 1%;
+  flex-wrap: wrap;
+  
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-image: url(/Portfolio/images/bg1.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+ 
+}
+
+
+.gallery {
+  
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+   
+}
+
+.gallery img {
+    object-fit: cover;
+    
+
+    
+}
+
+.gallery-item {
+   
+    margin: 2%;
+    padding: 35px;
+    background-color: #f9f2e9;
+    box-shadow: 10px 10px rgba(107, 123, 113, 0.281);
+    font-family: "EB Garamond";
+    font-size: 15px;
+}
+
+.img-captions {
+    padding-top: 2.5%;
+    max-width: 250px;
+}
+
+
+
+/*------re-sizing-------*/
+
+
+
+
+@media all and (min-width: 800px) {
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.container1 {
+  display: flex;
+  flex-flow: row wrap;
+  
+}
+
+
+.main {
+
+
+}
+
+#nav{
+
+
+}
+}
