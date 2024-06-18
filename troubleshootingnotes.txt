@@ -1,0 +1,7 @@
+CSS not loading?
+
+Sometimes putting type="text/css" into the header link helps
+
+CSS only partially loading?
+I forgot how I fixed this, if I remember I'll put it header
+
