@@ -277,7 +277,6 @@ footer {
   width: 100%;
   margin-top: 2em;
   padding: 1%;  
-
   text-align: center; 
   
 }
@@ -368,24 +367,26 @@ margin-right: 3%;
 /*-and index, reorganize later-*/
 
 .centered-content-box {
-background-color: rgb(240, 240, 225);
-box-shadow: 8px 8px #837d693c;
-max-width: 900px;
-
-padding: 3%;
-display: flex;
-flex-direction: column;
-align-content: center;
-align-items: center;
-justify-content: center;
-justify-items: center;
-font-size: 20px;
-
+  background-color: rgb(240, 240, 225);
+  box-shadow: 8px 8px #837d693c;
+  max-width: 900px;
+  height: fit-content;
+  padding: 3%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: row;
+  text-align: center;
+  
 }
+
+
 
 #mariah {
 width: 100%;
-padding: 10%;
+padding: 1%;
 }
 
 
@@ -397,17 +398,16 @@ margin: 0 auto;
 /*-index-*/
 
 #index-main {
-  height: 100%;
+  min-height: 100vh;
   background-image: url(/images/bg1.png);
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: 120%;
-  background-color: rgb(195, 200, 175);
-  
- 
-
-  
+  background-color: rgb(195, 200, 175); 
 }
+
+
+
 
 #pfp-index {
   width: 100%;
