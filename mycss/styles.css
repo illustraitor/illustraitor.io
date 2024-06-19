@@ -366,14 +366,14 @@ width: ;
 */
 
 .projectpic {
-  height: 200px;
-  width: 300px;
+  height: 250px;
+
   object-fit: cover;
-  padding-right: 5%;
-  margin-right: 5%;
 }
 
-
+.padding-fix {
+  padding-left: 3.5%;
+}
 
 
 
