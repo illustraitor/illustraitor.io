@@ -15,6 +15,9 @@ body {
 }
 
 
+
+
+
 /*----------------------text-styles--------------------------*/
 
 #homenav {
@@ -97,6 +100,7 @@ h2 {
 
 h3 {
   font-family: "IBM Plex Serif", serif;
+  padding: 1% 0% 1% 0%;
 }
 #name {
   font-family: "Silkscreen", sans-serif;
@@ -357,11 +361,12 @@ width: ;
 */
 
 .projectpic {
-width: 200px;
-height: 200px;
-object-fit: cover;
-margin-right: 3%;
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+  padding-right: 8%;
 }
+
 
 /*------404-*/
 /*-and index, reorganize later-*/
@@ -502,14 +507,17 @@ margin: 0 auto;
   }
 
   .projectpic {
-    width: 2100%;
-    object-fit: cover;
-    margin: 0% 0% 4% 0%;
+    width: 100vw;
+    padding: 0%;
+    margin: 0%;
+   
   }
-}
 
-.centered-content-box {
-  width: 100vw;
+
+  .centered-content-box {
+    width: 100vw;
+  }
+
 }
 
 /*----------------------resize-small--------------------------*/
