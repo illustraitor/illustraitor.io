@@ -20,6 +20,7 @@ body {
 
 /*----------------------text-styles--------------------------*/
 
+
 #homenav {
 text-align: center;
 line-height: 2;
@@ -52,7 +53,7 @@ color: rgb(253, 141, 115);
 }
 
 ul {
-list-style:square inside url(images/ul-list.png);
+list-style:square inside url(/images/ul-list.png);
 
 }
 
@@ -87,6 +88,10 @@ h1 {
 color: #9a97ff;
 }
 
+#name-link:hover {
+  
+  background-color: rgba(240, 248, 255, 0);
+  }
 
 h2 {
   font-family: "Silkscreen", sans-serif;
@@ -427,7 +432,7 @@ margin: 0 auto;
 
 /*----------------------resize-medium--------------------------*/
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 965px) {
 
   aside {
       flex: 1 0 100%;
