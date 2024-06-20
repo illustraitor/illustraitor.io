@@ -37,7 +37,7 @@ text-shadow: 2px 2px #37375461;
 margin: 3%;
 }
 
-a {
+main a {
 color: #403cad;
 text-decoration: none;
 }
@@ -87,10 +87,6 @@ h1 {
 color: #9a97ff;
 }
 
-#name-link:hover {
-  
-  background-color: rgba(240, 248, 255, 0);
-  }
 
 h2 {
   font-family: "Silkscreen", sans-serif;
@@ -111,9 +107,22 @@ h3 {
   font-weight: 400;
   font-style: normal;
   font-size: 28px;
-  padding-top: 10%;
+  padding: 10%;
   color: antiquewhite;
   text-shadow: 2px 2px #373754;
+  position: absolute;
+  left: 0%;
+}
+
+#name a {
+  text-decoration: none;
+  color: #faebd7;
+}
+
+#name a:hover {
+  text-decoration: none;
+  color: #e47c6d;
+
 }
 
 #bio {
@@ -124,13 +133,9 @@ h3 {
   padding-top: 5%;
   padding-bottom: 5%;
   padding-right: 6%;
+  padding-left: 6%;
   
 }
-
- #name, #bio {
-  padding-left: 6%;
- }
-
 
  .title {
   font-family: "IBM Plex Serif", serif;
@@ -173,11 +178,11 @@ a> .pointer {
   opacity: 0;
 }
 
-a:hover > .pointer{
+nav a:hover > .pointer{
   display: inline;
   opacity: 100%;
 }
-a:hover {
+nav a:hover {
 color: #ffca67 !important;
 background-color: rgba(250, 235, 215, 0.377);
 }
@@ -234,6 +239,10 @@ background-position: left;
 aside {
   flex: 0 2 25vw;
   padding-bottom: 5%;   
+  flex-direction: row;
+  align-content: flex-start;
+
+
 }
 
 nav {
@@ -266,17 +275,18 @@ justify-content: center;
 .container2 {
 margin: 3%;
 display: flex;
-flex-direction: row;
-align-content: center;
-align-items: center;
+padding: 3%;
+height: fit-content;
 justify-content: center;
+align-content: center;
 justify-items: center;
-padding: 4%;
+align-items: center;
 
 }
 
-.article {
-width: 100%;
+.article-projects {
+width: 60%;
+padding-left: 5%;
 
 }
 
@@ -292,6 +302,7 @@ footer {
 
 #pfp {
   width: 80%;
+  padding-top: 30%;
   padding-left: 10%;
   padding-right: 5%;
   
@@ -366,14 +377,13 @@ width: ;
 */
 
 .projectpic {
-  height: 250px;
+  width: 200px;
+  height: 200px;
 
   object-fit: cover;
 }
 
-.padding-fix {
-  padding-left: 3.5%;
-}
+
 
 
 
