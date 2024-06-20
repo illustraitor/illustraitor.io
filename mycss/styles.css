@@ -121,6 +121,7 @@ h3 {
 
 #name a:hover {
   text-decoration: none;
+  background-color: rgba(0, 0, 255, 0);
   color: #e47c6d;
 
 }
@@ -275,18 +276,17 @@ justify-content: center;
 .container2 {
 margin: 3%;
 display: flex;
-padding: 3%;
-height: fit-content;
-justify-content: center;
+flex-direction: row;
 align-content: center;
-justify-items: center;
 align-items: center;
+justify-content: center;
+justify-items: center;
+padding: 4%;
 
 }
 
-.article-projects {
-width: 60%;
-padding-left: 5%;
+.article {
+width: 100%;
 
 }
 
@@ -379,7 +379,7 @@ width: ;
 .projectpic {
   width: 200px;
   height: 200px;
-
+  padding-right: 9%;
   object-fit: cover;
 }
 
