@@ -539,6 +539,8 @@ margin: 0 auto;
 
   .centered-content-box {
     width: 100vw;
+    display: flex;
+    flex-direction: column;
   }
 
 }
