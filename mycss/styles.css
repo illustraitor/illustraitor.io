@@ -194,7 +194,7 @@ nav a:hover > .pointer{
 }
 nav a:hover {
 color: #ffca67 !important;
-background-color: rgba(250, 235, 215, 0.377);
+background-color: #faebd760;
 }
 
 
@@ -233,7 +233,7 @@ main {
 background-image: url(/images/bg2.png);
 background-repeat: repeat-y;
 background-position: left;
-
+background-color: #eff1dd;
 }
 
 
